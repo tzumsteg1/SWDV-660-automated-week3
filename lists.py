@@ -7,6 +7,6 @@ def revList(listB):
         #Then it basically appends the list in reverse order by calling itself multiple times.
         return revList(listB[1:]) + [listB[0]]
 
-print(revList([8, 24, 52, 55, 61, 21]))
+print(revList([8, 24, 52, 55, 61, 21, 22, 1]))
 #prints the list [8, 24, 52, 55, 61, 21] backwards to [21, 61, 55, 52, 24, 8]
 #This list is the most current Power Ball winning numbers so if you had those, send money please!
